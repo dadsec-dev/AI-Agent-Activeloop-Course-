@@ -5,7 +5,6 @@ import os
 # load .env file
 load_dotenv()
 
-
 llm = OpenAI(
     model="text-davinci-003",
     temperature=0.9
